@@ -23,8 +23,6 @@
 #define GET_PATH(P) P
 #define INC_PATH(X) <GET_PATH(IMGUIZMO_IMGUI_FOLDER)X>
 
-#define IMGUI_DEFINE_MATH_OPERATORS
-
 #include INC_PATH(imgui.h)
 #include INC_PATH(imgui_internal.h)
 
